@@ -8,5 +8,8 @@ export class CreateItemDto {
   readonly description: string;
 
   @IsNotEmpty()
-  readonly price: number;
+  readonly age: number;
+
+  @IsNotEmpty()
+  readonly country: string;
 }

@@ -19,7 +19,7 @@ fetch('https://nest-server-kate4ka.herokuapp.com/items', {
   .then((data) => console.log(data))
   .catch((err) => console.error(err));
 
-fetch('http://localhost:8080/delete', {
+fetch('https://nest-server-kate4ka.herokuapp.com/delete', {
   method: 'POST',
   headers: {
     Accept: 'application/json',

@@ -5,9 +5,9 @@ import * as fs from 'fs';
 @Injectable()
 export class ItemsService {
   private items: Array<Item> = [
-    { name: 'Sam', description: 'hello', price: 30 },
-    { name: 'Din', description: 'bye', price: 25 },
-    { name: 'Bobby', description: 'chao', price: 28 },
+    { name: 'Sam', description: 'hunter', price: 30 },
+    { name: 'Din', description: 'hunter', price: 25 },
+    { name: 'Bobby', description: 'old man', price: 28 },
   ];
 
   // eslint-disable-next-line @typescript-eslint/ban-types

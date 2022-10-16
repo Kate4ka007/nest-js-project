@@ -58,7 +58,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-[## Swagger documentation](https://nest-server-kate4ka.herokuapp.com/api/docs)
+[Swagger documentation](https://nest-server-kate4ka.herokuapp.com/api/docs)
 
 ## Support
 

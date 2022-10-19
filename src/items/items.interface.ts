@@ -1,6 +1,6 @@
 export interface Item {
-  name: string;
+  title: string;
   description: string;
-  age: number;
-  country?: string;
+  img: string;
+  link: string;
 }

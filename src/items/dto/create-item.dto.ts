@@ -7,7 +7,7 @@ export class CreateItemDto {
     description: 'This is a required property',
   })
   @IsNotEmpty()
-  readonly name: string;
+  readonly title: string;
 
   @ApiProperty({
     type: String,
@@ -17,16 +17,16 @@ export class CreateItemDto {
   readonly description: string;
 
   @ApiProperty({
-    type: Number,
+    type: String,
     description: 'This is a required property',
   })
   @IsNotEmpty()
-  readonly age: number;
+  readonly img: string;
 
   @ApiPropertyOptional({
     type: String,
     description: 'This is an optional property',
   })
   @IsNotEmpty()
-  readonly country: string;
+  readonly link: string;
 }
